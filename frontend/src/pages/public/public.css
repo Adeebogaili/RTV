@@ -1,0 +1,13 @@
+.public {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding: 2rem 40px;
+}
+
+.publicIssues-list {
+    display: flex;
+    flex-direction: column;
+}
