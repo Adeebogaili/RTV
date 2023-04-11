@@ -18,7 +18,8 @@ function Comment(props) {
   function handleDelete() {
     deleteComment(issueId, _id);
   }
-  
+
+  // added moment to show time from now 
 const formattedTime = moment(createdAt).fromNow();
 
   const { token, user:currentUser } = useContext(UserContext);
