@@ -18,6 +18,7 @@ const Home = () => {
     addIssue
   } = useContext(IssuesContext)
 
+  // user data
   const firstLetter = token && username ? username.charAt(0).toUpperCase() : '';
   const usernameCased = username ? username.charAt(0).toUpperCase() + username.slice(1).toLowerCase() : '';
   
