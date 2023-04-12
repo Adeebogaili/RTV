@@ -19,13 +19,19 @@ app.use(express.static(path.join(__dirname, 'client', 'build')));
 
 // Connect to MongoDB database
 
-mongoose.connect(
-  process.env.MONGO_URL,
-  { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
-  () => {
-    console.log('Connected to MongoDB');
+const connectDatabase = async () => {
+  try {
+    mongoose.set('strictQuery', false);
+    await mongoose.connect(process.env.MONGO_URL);
+
+    console.log('connected to database');
+  } catch (error) {
+    console.log(error);
+    process.exit(1);
   }
-);
+};
+
+connectDatabase();
 
 // Define routes
 app.use('/auth', authRouter);
