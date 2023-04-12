@@ -45,8 +45,7 @@
 }
 
 .auth-span {
-  text-decoration: underline;
-  color: #cc0000;
+  text-decoration: #cc0000 underline;
 }
 
 span:hover {
