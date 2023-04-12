@@ -10,8 +10,8 @@ function Comment(props) {
 
   const firstLetter = user ? user.username.charAt(0).toUpperCase() : '';
   const usernameCased =
-    user.username.charAt(0).toUpperCase() +
-    user.username.slice(1).toLowerCase();
+    user?.username.charAt(0).toUpperCase() +
+    user?.username.slice(1).toLowerCase();
 
   const { deleteComment } = useContext(CommentContext);
 
