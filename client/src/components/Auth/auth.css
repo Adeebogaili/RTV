@@ -43,6 +43,10 @@
     color: white;
 }
 
+.auth-span {
+    text-decoration: underline;
+}
+
 .span-span {
     text-decoration: underline;
 }

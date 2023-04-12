@@ -68,7 +68,7 @@ export default function Auth() {
             <p>
               Don 't have an account?{" "}
               <span className="auth-span" onClick={toggleForm}>
-                Sing up.
+                Sign up.
               </span>{" "}
             </p>{" "}
             <AuthForm
