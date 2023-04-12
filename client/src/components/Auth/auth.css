@@ -1,86 +1,84 @@
 .auth-container {
-    height: 100vh;
-    background-color: white;
-    font-family: Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 0 40px;
+  height: 100vh;
+  background-color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, Utkal, sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 40px;
 }
 .auth-container a {
-    color: white;
+  color: white;
 }
 
 .auth-wrapper {
-    background-color: transparent;
-    background-color: #112a42;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px, rgba(255, 255, 255, 0.8) 0px 0px 0px 1px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 8px;
-    width: 400px;
-    margin: 3rem;
-    padding: 2rem 1rem;
-    max-height: 500px;
+  background-color: transparent;
+  background-color: #112a42;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px,
+    rgba(255, 255, 255, 0.8) 0px 0px 0px 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  width: 400px;
+  margin: 3rem;
+  padding: 2rem 1rem;
+  max-height: 500px;
 }
-.auth-wrapper img{
-    width: 40px;
-    height: 40px;
+.auth-wrapper img {
+  width: 40px;
+  height: 40px;
 }
 
 .auth-wrapper h1 {
-    font-family: Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 30px;
-    margin: 8px;
-    color: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, Utkal, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 8px;
+  color: #fff;
 }
 
 .auth-wrapper p {
-    color: white;
+  color: white;
 }
 
 .auth-span {
-    text-decoration: underline;
-}
-
-.span-span {
-    text-decoration: underline;
+  text-decoration: underline;
+  color: #cc0000;
 }
 
 span:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .authForm {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
-.authForm, .authForm input {
-    max-width: 250px;
-    padding: 12px;
+.authForm,
+.authForm input {
+  max-width: 250px;
+  padding: 12px;
 }
 
 .authForm input {
-    border: 1px solid #CC0000;
-    border-radius: 5px;
-    margin: 1rem 0;
+  border: 1px solid #cc0000;
+  border-radius: 5px;
+  margin: 1rem 0;
 }
 
 .authForm button {
-    width: 100%;
-    padding: 16px;
-    border: 0;
-    border-radius: 4px;
-    background: #CC0000;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    cursor: pointer;
+  width: 100%;
+  padding: 16px;
+  border: 0;
+  border-radius: 4px;
+  background: #cc0000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
 }
